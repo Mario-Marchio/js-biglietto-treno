@@ -15,3 +15,14 @@ console.log(km);
 // calcolo prezzo del biglietto senza sconti
 const price = 0.21 * km;
 console.log(price);
+
+// calcolare gli sconti 
+let realPrice
+let discount
+if(age<=18){
+    discount = price * 20 /100;
+    console.log(discount);
+}else if (age>65){
+    discount = price * 40 /100;
+    console.log(discount);
+}
