@@ -3,4 +3,5 @@
 - **chiedere numero di chilometri**
 - **calcolare il costo del biglietto**
 - **calcolare gli sconti**
+- **scalare los conto dal prezzo originale**
 - **mostrare il prezzo in base al eta e al chilometraggio a schermo**
