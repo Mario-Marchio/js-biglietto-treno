@@ -17,7 +17,6 @@ const price = 0.21 * km;
 console.log(price);
 
 // calcolare gli sconti 
-let realPrice
 let discount
 if(age<=18){
     discount = price * 20 /100;
@@ -25,4 +24,14 @@ if(age<=18){
 }else if (age>65){
     discount = price * 40 /100;
     console.log(discount);
+}
+
+// applicare lo sconto
+let realPrice
+if(age<=18){
+    realPrice = price - discount;
+    console.log(realPrice);
+}else if (age>65){
+    realPrice = price - discount;
+    console.log(realPrice);
 }
