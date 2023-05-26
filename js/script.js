@@ -11,3 +11,7 @@ console.log(age);
 // chiedi al utente il numero di km che vuole percorrere
 const km = prompt(`inserisci il numero di km che vuoi percorrere`,`100`);
 console.log(km);
+
+// calcolo prezzo del biglietto senza sconti
+const price = 0.21 * km;
+console.log(price);
