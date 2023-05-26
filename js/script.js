@@ -35,3 +35,6 @@ if(age<=18){
     realPrice = price - discount;
     console.log(realPrice);
 }
+
+// mostrala a schermo
+placeholder.innerText = realPrice;
