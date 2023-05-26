@@ -1,0 +1,5 @@
+- **chiedere numero di chilometri**
+- **chiedere l'età**
+- **calcolare il costo del biglietto**
+- **calcolare gli sconti**
+-**mostrare il prezzo in base al eta e al chilometraggio a schermo**
